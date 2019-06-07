@@ -37,7 +37,7 @@ if (imgtype=='png') or (imgtype=='PNG'):
 	pic_png=imgloc
 	img=mpimg.imread(pic_png)
 	greyconverter(pic_png)
-if (imgtype=='jpg') or (imgtype=='JPG') :
+if (imgtype=='jpg') or (imgtype=='JPG') or (imgtype=='jpeg') or (imgtype=='JPEG'):
 #	pic_jpg=str(input('file location:'))
 	pic_jpg=imgloc
 	jpgtopng(pic_jpg)
