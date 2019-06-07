@@ -32,12 +32,12 @@ def greyconverter(pic_png):
 imgloc=str(input("Image file png or jpg (type with the extension ex: a.png): "))
 a=imgloc.split(".")
 imgtype=a[1]
-if imgtype=='png':
+if (imgtype=='png') or (imgtype=='PNG'):
 #	pic_png=str(input('file location:'))
 	pic_png=imgloc
 	img=mpimg.imread(pic_png)
 	greyconverter(pic_png)
-if imgtype=='jpg' :
+if (imgtype=='jpg') or (imgtype=='JPG') :
 #	pic_jpg=str(input('file location:'))
 	pic_jpg=imgloc
 	jpgtopng(pic_jpg)
